@@ -1,0 +1,13 @@
+{% block markup_widget %}
+    {% spaceless %}
+        <div class="markup">
+            {{ markup|raw }}
+        </div>
+    {% endspaceless %}
+{% endblock markup_widget %}
+
+{% block markup_row -%}
+    {{- form_label(form) -}}
+    {{- form_widget(form) -}}
+    {{- form_errors(form) -}}
+{%- endblock markup_row %}
