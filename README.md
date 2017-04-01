@@ -1,6 +1,8 @@
 MarkupFieldBundle
 ==================
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/f7a88ff5-e1e1-47c9-9c15-571c16115b98/mini.png)](https://insight.sensiolabs.com/projects/f7a88ff5-e1e1-47c9-9c15-571c16115b98)
+
 This bundle provides a markup form field for Symfony.
 This bundle is useful to create fake field wich contains text or HTML.
 
